@@ -5,28 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Priyanka Bharti | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Sticky Navigation -->
     <nav class="navbar">
-        <div class="nav-content">
-            <a href="#home" class="logo">PB</a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <div class="nav-container">
+            <a href="#home" class="nav-logo"></a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1 class="hero-title">Priyanka Bharti</h1>
+            <h1 class="hero-name">Priyanka<br>Bharti</h1>
             <div class="hero-subtitle">
                 <p><span class="icon">🔐</span> Cybersecurity Innovator |</p>
                 <p><span class="icon">🤖</span> AI/ML Enthusiast |</p>
@@ -36,63 +38,55 @@
             <p class="hero-description">Bridging the gap between cutting-edge AI innovations and fortress-like cybersecurity. Building secure systems that defend the digital future.</p>
             <div class="hero-buttons">
                 <a href="mailto:bhartipriyanka982@gmail.com" class="btn btn-primary">Contact Me</a>
-                <a href="https://github.com/priyaS008" class="btn btn-secondary" target="_blank">GitHub</a>
+                <a href="https://github.com/priyaS008" target="_blank" class="btn btn-secondary">GitHub</a>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="about" id="about">
-        <div class="container">
+    <section class="content-section" id="about">
+        <div class="content-wrapper">
             <h2 class="section-title">About Me</h2>
-            <p class="about-text">I'm a B.Sc AI/ML student at IIIT Vadodara with expertise in Python, C, and Linux. Passionate about cybersecurity and its strategic importance to national defense. Beyond coding, I'm driven by research, strategic thinking, and exploring technology's societal impact. I also enjoy writing, traveling, and engaging with literature.</p>
-            <p class="about-text">My mission: Synthesize AI/ML with bulletproof cybersecurity to build defense-grade solutions. I believe true security is built on continuous learning, practical implementation, and relentless pursuit of excellence.</p>
+            <p class="section-text">I'm a B.Sc AI/ML student at IIIT Vadodara with expertise in Python, C, and Linux. Passionate about cybersecurity and its strategic importance to national defense. Beyond coding, I'm driven by research, strategic thinking, and exploring technology's societal impact. I also enjoy writing, traveling, and engaging with literature.</p>
+            <p class="section-text">My mission: Synthesize AI/ML with bulletproof cybersecurity to build defense-grade solutions. I believe true security is built on continuous learning, practical implementation, and relentless pursuit of excellence.</p>
         </div>
     </section>
 
     <!-- Education Section -->
-    <section class="education" id="education">
-        <div class="container">
+    <section class="content-section" id="education">
+        <div class="content-wrapper">
             <h2 class="section-title">Education</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-number">1</div>
-                    <div class="timeline-content">
-                        <h3>IIIT Vadodara</h3>
-                        <p>B.Sc AI/ML, 2025–Present</p>
-                    </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <span class="edu-number">1</span>
+                    <h3>IIIT Vadodara</h3>
+                    <p>B.Sc AI/ML, 2025–Present</p>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-number">2</div>
-                    <div class="timeline-content">
-                        <h3>IIT Guwahati</h3>
-                        <p>Cybersecurity Micro-Certificate, 2025–Present</p>
-                    </div>
+                <div class="education-card">
+                    <span class="edu-number">2</span>
+                    <h3>IIT Guwahati</h3>
+                    <p>Cybersecurity Micro-Certificate, 2025–Present</p>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-number">3</div>
-                    <div class="timeline-content">
-                        <h3>Rashtriya Raksha University</h3>
-                        <p>Defence & Strategic Studies (foundational coursework)</p>
-                    </div>
+                <div class="education-card">
+                    <span class="edu-number">3</span>
+                    <h3>Rashtriya Raksha University</h3>
+                    <p>Defence & Strategic Studies (foundational coursework)</p>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-number">4</div>
-                    <div class="timeline-content">
-                        <h3>CBSE Board</h3>
-                        <p>10th & 12th, First Division</p>
-                    </div>
+                <div class="education-card">
+                    <span class="edu-number">4</span>
+                    <h3>CBSE Board</h3>
+                    <p>10th & 12th, First Division</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section class="skills" id="skills">
-        <div class="container">
+    <section class="content-section" id="skills">
+        <div class="content-wrapper">
             <h2 class="section-title">Technical Skills</h2>
             <div class="skills-grid">
-                <div class="skill-category">
+                <div class="skill-block">
                     <h3>Programming</h3>
                     <ul>
                         <li>Python</li>
@@ -102,7 +96,7 @@
                         <li>File Handling</li>
                     </ul>
                 </div>
-                <div class="skill-category">
+                <div class="skill-block">
                     <h3>Systems</h3>
                     <ul>
                         <li>Linux/Ubuntu</li>
@@ -111,7 +105,7 @@
                         <li>Command Line Tools</li>
                     </ul>
                 </div>
-                <div class="skill-category">
+                <div class="skill-block">
                     <h3>Security</h3>
                     <ul>
                         <li>Cybersecurity Fundamentals</li>
@@ -120,53 +114,57 @@
                         <li>Malware Basics</li>
                     </ul>
                 </div>
-                <div class="skill-category">
+                <div class="skill-block">
                     <h3>Tools & Technologies</h3>
-                    <ul>
-                        <li>VS Code, Git</li>
-                        <li>Linux Tools (netstat, grep, sed, awk)</li>
-                        <li>MS Office, Google Workspace</li>
-                    </ul>
+                    <div class="tool-subsection">
+                        <p><strong>Development:</strong> VS Code, Git, version control for collaborative projects and code management.</p>
+                        <p><strong>Linux Tools:</strong> netstat, grep, sed, awk for system analysis and network monitoring.</p>
+                        <p><strong>Productivity:</strong> MS Office, Google Workspace for documentation and collaboration.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <div class="container">
+    <section class="content-section" id="projects">
+        <div class="content-wrapper">
             <h2 class="section-title">Key Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
+                    <span class="project-number">1</span>
                     <h3>C Data Structures & File Handling Lab</h3>
                     <p>Engineered fundamental data structure implementations in C, mastering arrays, linked lists, stacks, and queues with advanced file I/O operations for optimal memory management and algorithmic efficiency.</p>
-                    <div class="project-skills">C Programming • Data Structures • File I/O</div>
+                    <p class="project-skills">Skills: C Programming, Data Structures, File I/O</p>
                 </div>
                 <div class="project-card">
+                    <span class="project-number">2</span>
                     <h3>Python Network Analysis Script</h3>
                     <p>Architected sophisticated Python-based security monitoring tool leveraging netstat to capture real-time network activity, identifying anomalous patterns and potential security threats with precision threat analysis.</p>
-                    <div class="project-skills">Python • Network Security • System Analysis</div>
+                    <p class="project-skills">Skills: Python, Network Security, System Analysis</p>
                 </div>
                 <div class="project-card">
+                    <span class="project-number">3</span>
                     <h3>Linux System Administration & Hardening</h3>
                     <p>Hardened Ubuntu systems through strategic deployment of user/group management, granular file permissions, and enterprise-grade firewall configurations—implementing defense-in-depth security protocols for production environments.</p>
-                    <div class="project-skills">Linux • Security Hardening • System Admin</div>
+                    <p class="project-skills">Skills: Linux, Security Hardening, System Administration</p>
                 </div>
                 <div class="project-card">
+                    <span class="project-number">4</span>
                     <h3>Managed GitHub Repositories & Git Workflow</h3>
                     <p>Orchestrated sophisticated Git workflows and version control mastery across multiple repositories, demonstrating best practices in branching strategies, commit hygiene, and collaborative development within team environments.</p>
-                    <div class="project-skills">Git • GitHub • Version Control • Collaboration</div>
+                    <p class="project-skills">Skills: Git, GitHub, Version Control, Collaboration</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Research & Advanced Work -->
-    <section class="research" id="research">
-        <div class="container">
+    <!-- Research Section -->
+    <section class="content-section">
+        <div class="content-wrapper">
             <h2 class="section-title">Research & Advanced Work</h2>
             <div class="research-grid">
-                <div class="research-item">
+                <div class="research-card">
                     <h3>Cybersecurity Fundamentals</h3>
                     <p>Comprehensive training through IIT Guwahati covering threat landscapes, security protocols, and defensive strategies.</p>
                     <ul>
@@ -175,7 +173,7 @@
                         <li>Vulnerability assessment</li>
                     </ul>
                 </div>
-                <div class="research-item">
+                <div class="research-card">
                     <h3>Defense Sector Research</h3>
                     <p>Research at Rashtriya Raksha University examining cybersecurity systems and their critical impact on defense infrastructure and national security.</p>
                     <ul>
@@ -189,43 +187,49 @@
     </section>
 
     <!-- Certifications Section -->
-    <section class="certifications" id="certifications">
-        <div class="container">
+    <section class="content-section" id="certifications">
+        <div class="content-wrapper">
             <h2 class="section-title">Certifications & Achievements</h2>
-            <div class="cert-grid">
-                <div class="cert-item">
-                    <h3>Professional Certifications</h3>
+            <div class="certifications-grid">
+                <div class="cert-category">
+                    <h3>IIT Guwahati</h3>
+                    <p>Cybersecurity Micro-Certificate</p>
+                </div>
+                <div class="cert-category">
+                    <h3>Professional Certifications & Training</h3>
                     <ul>
-                        <li>IIT Guwahati Cybersecurity Micro-Certificate</li>
-                        <li>IIT Jodhpur Cyber Defence Program</li>
-                        <li>Cyber Security Training - Acmegrade/Mood Indigo, IIT Bombay</li>
+                        <li>Cyber Program in Cyber Defence – IIT Jodhpur TISC & WhizHack Technologies</li>
+                        <li>Cyber Security Training Acmegrade / Mood Indigo, IIT Bombay</li>
+                        <li>India's Strategic Culture Rashtriya Raksha University</li>
                     </ul>
                 </div>
-                <div class="cert-item">
+                <div class="cert-category">
                     <h3>Academic Excellence</h3>
                     <ul>
-                        <li>Army Welfare Education Scholarship</li>
-                        <li>Merit Recognitions</li>
-                        <li>India's Strategic Culture - Rashtriya Raksha University</li>
+                        <li>Army Welfare Education Scholarship, Merit Recognitions</li>
                     </ul>
                 </div>
-                <div class="cert-item">
-                    <h3>Competitions & Extracurriculars</h3>
+                <div class="cert-category">
+                    <h3>Competitions</h3>
                     <ul>
-                        <li>Maths Olympiad</li>
-                        <li>Green Olympiad</li>
-                        <li>Regional Judo & Yoga</li>
-                        <li>Scout & Guide</li>
+                        <li>Maths Olympiad, Green Olympiad, Regional Judo & Yoga</li>
                     </ul>
                 </div>
-                <div class="cert-item">
+                <div class="cert-category">
+                    <h3>Leadership</h3>
+                    <ul>
+                        <li>Scout & Guide, IIT Cyber & Ethical Hacking Courses</li>
+                    </ul>
+                </div>
+                <div class="cert-category">
                     <h3>Soft Skills & Competencies</h3>
                     <ul>
-                        <li>Problem-Solving & Critical Thinking</li>
-                        <li>Research & Investigation</li>
-                        <li>Technical Writing & Documentation</li>
-                        <li>Independent Learning & Time Management</li>
-                        <li>Teamwork & Collaboration</li>
+                        <li>Problem-Solving: Analytical approach to complex technical challenges and security vulnerabilities</li>
+                        <li>Research: Systematic investigation of cybersecurity systems and defense applications</li>
+                        <li>Technical Writing: Clear documentation of projects, research findings, and technical processes</li>
+                        <li>Independent Learning: Self-motivated pursuit of certifications and advanced technical knowledge</li>
+                        <li>Time Management: Balancing academics, research, certifications, and project work effectively</li>
+                        <li>Teamwork: Collaborative approach to projects and knowledge sharing with peers</li>
                     </ul>
                 </div>
             </div>
@@ -233,22 +237,24 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
+    <section class="content-section contact-section" id="contact">
+        <div class="content-wrapper">
             <h2 class="section-title">Let's Connect</h2>
             <div class="contact-grid">
-                <div class="contact-info">
+                <div class="contact-block">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li><strong>English:</strong> Professional</li>
+                        <li><strong>Hindi:</strong> Native</li>
+                    </ul>
+                </div>
+                <div class="contact-block">
                     <h3>Contact Information</h3>
                     <p><strong>Email:</strong> <a href="mailto:bhartipriyanka982@gmail.com">bhartipriyanka982@gmail.com</a></p>
                     <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/priyanka-bharti-b30b0527a" target="_blank">linkedin.com/in/priyanka-bharti-b30b0527a</a></p>
-                    <p><strong>GitHub:</strong> <a href="https://github.com/priyaS008" target="_blank">github.com/priyaS008</a></p>
                     <p><strong>Location:</strong> Indore, Madhya Pradesh</p>
                 </div>
-                <div class="contact-info">
-                    <h3>Languages</h3>
-                    <p><strong>English:</strong> Professional</p>
-                    <p><strong>Hindi:</strong> Native</p>
-                    <br>
+                <div class="contact-block">
                     <h3>Open to Opportunities</h3>
                     <p>Ready to turn ambitious ideas into secure, scalable realities! I thrive on challenges—whether it's internships, innovative projects, or collaborative ventures. Remote or on-site, full-time or flexible—I adapt to what works. With an immediate start capability and flexible scheduling around my studies, I'm primed to contribute, learn relentlessly, and build solutions that matter.</p>
                 </div>
@@ -258,11 +264,33 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Priyanka Bharti | AI/ML Student | Cybersecurity Enthusiast</p>
-        </div>
+        <p>&copy; 2025 Priyanka Bharti | AI/ML Student | Cybersecurity Enthusiast</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#') {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }
+            });
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 </html>
