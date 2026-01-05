@@ -39,6 +39,8 @@ body {
 }
 
 .hero-content.center {
+  max-width: 900px;
+  padding: 0 1.5rem;
   position: relative;
   z-index: 2;
   max-width: 900px;
@@ -49,16 +51,17 @@ body {
 
 .hero-name {
   font-family: 'Playfair Display', serif;
-  font-size: 4rem;
-  font-weight: 800;
+  font-size: 3.2rem;
+  font-weight: 700;
   line-height: 1;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   color: #ffffff;
 }
 
 .hero-subtitle {
-    margin-bottom: 1.5rem;
-  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.05rem;
+  font-weight: 500;
   line-height: 1.8;
     color: #c0c0c0;
 }
