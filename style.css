@@ -38,7 +38,7 @@ body {
   justify-content: center;
   text-align: center;
 }
-.hero-content.center {
+.hero-content.center {   transform: translateY(-4%);
   max-width: 900px;
   padding: 0 1.5rem;
   position: relative;
@@ -49,7 +49,7 @@ body {
   width: 100%;
 }
 
-.hero-name {
+.hero-name {   line-height: 1.05;
   font-family: 'Playfair Display', serif;
   font-size: 3.2rem;
   font-weight: 700;
@@ -154,7 +154,7 @@ body {
 
 /* Content Wrapper */
 .content-wrapper {
-  max-width: 300px;
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
   padding: 0 1.5rem;
@@ -364,7 +364,7 @@ footer p {
     max-width: 500px;
   }
 
-  .hero-name {
+  .hero-name {   line-height: 1.05;
     font-size: 5rem;
   }
 
@@ -396,8 +396,8 @@ footer p {
     max-width: 700px;
   }
 
-  .hero-name {
-    font-size: 6rem;
+  .hero-name {   line-height: 1.05;
+    font-size: clamp(3rem, 5vw, 4.5rem);
   }
 
   .skills-grid {
