@@ -26,7 +26,7 @@ body {
   padding: 2rem 1.5rem;
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
   background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('images/hero.png') center/cover no-repeat;  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('images/hero.png') center/cover no-repeat;  background-size: cover;
   background-position: center;
 }
 
@@ -40,10 +40,11 @@ body {
   z-index: 1;
 }
 
-.hero-content {
+.hero-content.center {
   position: relative;
   z-index: 2;
-  max-width: 300px;
+  max-width: 900px;
+  margin: 0 auto;
   width: 100%;
 }
 
