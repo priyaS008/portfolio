@@ -21,7 +21,7 @@ body {
 .hero {
     height: 100vh;
     background:
-        linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
         url("images/hero.png") center/cover no-repeat;
     position: relative;
 }
@@ -45,10 +45,11 @@ body {
 
 .hero-name {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(3rem, 6vw, 5rem);
-    line-height: 1.05;
+    font-size: clamp(3.2rem, 5vw, 4.6rem);
+    font-weight: 800;
+    line-height: 1.03;
+    color: #ffffff;
     margin-bottom: 1rem;
-    color: #000000;
 }
 
 .hero-descriptor {
@@ -60,16 +61,20 @@ body {
 }
 
 .hero-subtitle {
+    font-family: 'Inter', sans-serif;
     font-size: 1.05rem;
     font-weight: 500;
-    color: #333333;
+    color: rgba(255,255,255,0.85);
     margin-bottom: 1.2rem;
+    max-width: 560px;
 }
 
 .hero-text {
+    font-family: 'Inter', sans-serif;
     font-size: 1rem;
     line-height: 1.7;
-    color: #555555;
+    color: rgba(255,255,255,0.75);
+    max-width: 520px;
     margin-bottom: 2rem;
 }
 
