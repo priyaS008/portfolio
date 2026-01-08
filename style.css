@@ -191,7 +191,8 @@ body {
   line-height: 1.6;
 }
 
-.content-section li::before {
+275
+{
   content: '•';
   position: absolute;
   left: 0;
@@ -256,6 +257,9 @@ body {
   background: #f9f9f9;
   border-radius: 8px;
   border-left: 4px solid #9b59b6;
+}
+.skill-category li::before {
+  content: none;
 }
 
 .skill-category h3 {
