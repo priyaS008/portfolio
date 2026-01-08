@@ -276,7 +276,8 @@ body {
 }
 
 .skill-category li {
-  padding: 0.6rem 0;
+    background: transparent !important;
+  color: #666666 !important;
 }
 
 /* Tools Section */
