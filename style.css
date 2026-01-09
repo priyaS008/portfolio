@@ -21,6 +21,10 @@ body {
 .hero {
   min-height: 100vh;
   background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+   background-image: url('images/hero.png');
+ background-position: right center;
+ background-size: cover;
+ background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -147,6 +151,28 @@ body {
   padding: 4rem 0 4.5rem;
   background: #ffffff;
   border-bottom: 1px solid #f5f5f5;
+}
+
+/* Section Backgrounds */
+#about {
+  background-image: url('images/cyber.png');
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#education {
+  background-image: url('images/campus.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#projects {
+  background-image: url('images/lab.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .content-section h2 {
