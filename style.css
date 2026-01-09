@@ -155,8 +155,7 @@ body {
 }
 
 #education {
-    background: #ffffff;
-}
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(255, 255, 255, 0.70) 100%), url('images/campus.png'); background-position: center; background-size: cover; background-attachment: scroll;}
 
 #projects {
     background: #ffffff;
