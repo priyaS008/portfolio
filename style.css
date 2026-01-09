@@ -20,8 +20,7 @@ body {
 /* Hero Section */
 .hero {
   min-height: 100vh;
- background: linear-gradient(90deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.90) 50%, rgba(255, 255, 255, 0.85) 100%), url('images/hero.png'); background-position: top right; 25
-  ;
+ background: linear-gradient(90deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.92) 100%), url('images/hero.png');  ;
  background-attachment: scroll;  display: flex;
   align-items: center;
   justify-content: center;
@@ -152,24 +151,15 @@ body {
 
 /* Section Backgrounds */
 #about {
-  background-image: url('images/cyber.png');
-  background-position: right center;
-  background-size: cover;
-  background-attachment: fixed;
+    background: #ffffff;
 }
 
 #education {
-  background-image: url('images/campus.png');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+    background: #ffffff;
 }
 
 #projects {
-  background-image: url('images/lab.png');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+    background: #ffffff;
 }
 
 .content-section h2 {
