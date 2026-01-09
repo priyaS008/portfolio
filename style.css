@@ -20,11 +20,9 @@ body {
 /* Hero Section */
 .hero {
   min-height: 100vh;
- background: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 100%), url('images/hero.png');   background-image: url('images/hero.png');
- background-position: top right; 25
+ background: linear-gradient(90deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.90) 50%, rgba(255, 255, 255, 0.85) 100%), url('images/hero.png'); background-position: top right; 25
   ;
- background-attachment: fixed;
-  display: flex;
+ background-attachment: scroll;  display: flex;
   align-items: center;
   justify-content: center;
   padding: 60px 20px;
