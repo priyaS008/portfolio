@@ -521,12 +521,12 @@ footer p {
   margin: 0 auto;
 }
 
-.education-timeline::before {
+.524
+{
   content: '';
   position: absolute;
   left: 50%;
-  top: 0;
-  bottom: 0;
+top: calc(1.5rem + 25px);  bottom: 0;
   width: 3px;
   background: linear-gradient(to bottom, #c084d8, #e9c4f0);
   transform: translateX(-50%);
