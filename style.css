@@ -512,7 +512,8 @@ footer p {
   }
 }
 
-/* Education Timeline Section */
+516
+
 .education-timeline {
   position: relative;
   padding: 2rem 0;
@@ -529,8 +530,7 @@ footer p {
   width: 3px;
   background: linear-gradient(to bottom, #c084d8, #e9c4f0);
   transform: translateX(-50%);
-  z-index: 1;
-}
+z-index: 0;}
 
 .timeline-item {
   margin-bottom: 3rem;
@@ -564,8 +564,7 @@ footer p {
   font-size: 1.5rem;
   font-weight: bold;
   color: #fff;
-  z-index: 3;
-  border: 3px solid #fff;
+z-index: 10;  border: 3px solid #fff;
   box-shadow: 0 4px 15px rgba(192, 132, 216, 0.3);
   transition: all 0.3s ease;
 }
