@@ -688,6 +688,20 @@ z-index: 10;  border: 3px solid #fff;
   object-fit: cover;
 }
 
+  .about-content {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-image {
+  flex: 1;
+}
+
 /* Responsive - Stack on mobile */
 @media (max-width: 768px) {
   #about .content-wrapper {
