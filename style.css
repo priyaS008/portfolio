@@ -643,8 +643,11 @@ z-index: 10;  border: 3px solid #fff;
   }
 
   /* About Section - Two Column Layout */
-#about {
-  display: block;
+.about-content {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3rem;
+  align-items: flex-start;
 }
 
 
