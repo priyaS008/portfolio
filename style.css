@@ -682,10 +682,12 @@ z-index: 10;  border: 3px solid #fff;
   object-fit: cover;
 }
 
-  .about-content {
+  685
+  
   display: flex;
   gap: 3rem;
   align-items: flex-start;
+    flex-wrap: nowrap;
 }
 
 .about-text {
