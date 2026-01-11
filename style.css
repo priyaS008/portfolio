@@ -686,8 +686,8 @@ z-index: 10;  border: 3px solid #fff;
     border-radius: 12px;
 
 @media (max-width: 768px) {
-  #about .content-wrapper {
-flex-direction: column;    gap: 2rem;
+.about-content {
+    flex-direction: column;
   }
   
 }
