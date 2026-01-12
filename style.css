@@ -20,12 +20,15 @@ body {
 /* Hero Section */
 .hero {
   min-height: 100vh;
- background: linear-gradient(90deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.92) 100%), url('images/hero.png');  ;
+ background: linear-gradient(90deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.92) 100%), url('images/hero.png');background-position: center
  background-attachment: scroll;  display: flex;
   align-items: center;
   justify-content: center;
   padding: 60px 20px;
   position: relative;
+}
+#projects {
+    background: #ffffff;
 }
 
 .hero-content {
