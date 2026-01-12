@@ -680,7 +680,7 @@ z-index: 10;  border: 3px solid #fff;
 
   
 .about-text {
-  flex: 1;
+  flex:1 1 65%1;
 }
 
 .about-image {
@@ -694,6 +694,7 @@ z-index: 10;  border: 3px solid #fff;
   align-items: center;      /* vertically center text + image */
   justify-content: space-between;
   gap: 2rem;                /* space between text and image */
+      flex-wrap: nowrap;
 }
 
 .about-text {
