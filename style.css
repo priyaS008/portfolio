@@ -260,7 +260,11 @@ body {
   margin-top: 1rem;
 }
 
-/* Skills Grid */
+
+
+#about { background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(245,220,245,0.85) 25%, rgba(220,245,255,0.8) 75%, rgba(255,255,255,0.95) 100%) !important; }
+#projects { background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(245,220,245,0.85) 25%, rgba(220,245,255,0.8) 75%, rgba(255,255,255,0.95) 100%) !important; }
+#skills { background: #4169E1 !important; color: white; }/* Skills Grid */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
