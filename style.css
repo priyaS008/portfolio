@@ -689,9 +689,24 @@ z-index: 10;  border: 3px solid #fff;
     border-radius: 12px;
 
 @media (max-width: 768px) {
-.about-content {
+  .about-content {
+  display: flex;
+  align-items: center;      /* vertically center text + image */
+  justify-content: space-between;
+  gap: 2rem;                /* space between text and image */
+}
+
+.about-text {
+  flex: 1;                  /* text takes remaining width */
+}
+
+.about-image {
+  max-width: 280px;         /* adjust size as you like */
+  width: 100%;
+  height: auto;
+}
+
     flex-direction: column;
   }
   
-}
 }
