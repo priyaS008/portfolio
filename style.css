@@ -21,6 +21,7 @@ body {
 .hero {
   min-height: 100vh;
  background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(245,220,245,0.9) 25%, rgba(220,245,255,0.85) 75%, rgba(255,255,255,0.95) 100%), url('images/hero.png');
+    background-size: cover; background-position: center; background-repeat: no-repeat;
  background-attachment: scroll;  display: flex;
   align-items: center;
   justify-content: center;
