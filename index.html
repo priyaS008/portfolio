@@ -3,54 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Priyanka Bharti</title>
+    <title>Priyanka Bharti | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">PB</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-content">
-            <h1 class="hero-name">Priyanka Bharti</h1>
-            <p class="hero-subtitle">🔐 Cybersecurity Innovator | 🤖 AI/ML Enthusiast | 💻 Coder | 📚 Lifelong Learner</p>
-            <p class="hero-text">Bridging the gap between cutting-edge AI innovations and fortress-like cybersecurity. Building secure systems that defend the digital future.</p>
+            <h1 class="hero-title">Priyanka Bharti</h1>
+            <div class="hero-subtitle">
+                <p><span class="icon">🔐</span> Cybersecurity Innovator |</p>
+                <p><span class="icon">🤖</span> AI/ML Enthusiast |</p>
+                <p><span class="icon">💻</span> Coder |</p>
+                <p><span class="icon">📚</span> Lifelong Learner</p>
+            </div>
+            <p class="hero-description">Bridging the gap between cutting-edge AI innovations and fortress-like cybersecurity. Building secure systems that defend the digital future.</p>
             <div class="hero-buttons">
-                <a href="mailto:bhartipriyanka982@gmail.com" class="btn btn-outline">Contact Me</a>
-                <a href="https://github.com/priyaS008" target="_blank" class="btn btn-filled">GitHub</a>
+                <a href="mailto:bhartipriyanka982@gmail.com" class="btn btn-primary">Contact Me</a>
+                <a href="https://github.com/priyaS008" class="btn btn-secondary" target="_blank">GitHub</a>
             </div>
         </div>
     </section>
 
-    <!-- Navigation Section -->
-    <section class="navigation-section">
-        <div class="content-wrapper">
-            <h2>Navigation</h2>
-            <nav class="nav-links">
-                <a href="#about">About</a> | <a href="#education">Education</a> | <a href="#skills">Skills</a> | <a href="#projects">Projects</a> | <a href="#certifications">Certifications</a> | <a href="#contact">Contact</a>
-            </nav>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">I'm a B.Sc AI/ML student at IIIT Vadodara with expertise in Python, C, and Linux. Passionate about cybersecurity and its strategic importance to national defense. Beyond coding, I'm driven by research, strategic thinking, and exploring technology's societal impact. I also enjoy writing, traveling, and engaging with literature.</p>
+            <p class="about-text">My mission: Synthesize AI/ML with bulletproof cybersecurity to build defense-grade solutions. I believe true security is built on continuous learning, practical implementation, and relentless pursuit of excellence.</p>
         </div>
-    </section>
-
-    34
-    
-    <section class="content-section" id="about">
-        <div class="content-wrapper">
-                        <h2>About Me</h2>
-                        <div class="about-content">
-                                            <div class="about-text">
-            <p>I'm a B.Sc AI/ML student at IIIT Vadodara with expertise in Python, C, and Linux. Passionate about cybersecurity and its strategic importance to national defense. Beyond coding, I'm driven by research, strategic thinking, and exploring technology's societal impact. I also enjoy writing, traveling, and engaging with literature.</p>
-            <p><strong>My mission:</strong> Synthesize AI/ML with bulletproof cybersecurity to build defense-grade solutions. I believe true security is built on continuous learning, practical implementation, and relentless pursuit of excellence.</p>
-        </div>
-                                                        <img src="images/cyber.png" alt="Cybersecurity" class="about-image">
-                                            </div>
-                        </div>
     </section>
 
     <!-- Education Section -->
-    <section class="content-section" id="education">
-        <div class="content-wrapper">
-            <h2>Education</h2>
-                        <div class="education-timeline">
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-number">1</div>
                     <div class="timeline-content">
@@ -80,14 +84,13 @@
                     </div>
                 </div>
             </div>
-            </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section class="content-section" id="skills">
-        <div class="content-wrapper">
-            <h2>Technical Skills</h2>
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
             <div class="skills-grid">
                 <div class="skill-category">
                     <h3>Programming</h3>
@@ -117,55 +120,51 @@
                         <li>Malware Basics</li>
                     </ul>
                 </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul>
+                        <li>VS Code, Git</li>
+                        <li>Linux Tools (netstat, grep, sed, awk)</li>
+                        <li>MS Office, Google Workspace</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section class="content-section" id="projects">
-        <div class="content-wrapper">
-            <h2>Key Projects</h2>
-            <div class="numbered-list">
-                <div class="list-item">
-                    <span class="number">1</span>
-                    <div>
-                        <h3>C Data Structures & File Handling Lab</h3>
-                        <p>Engineered fundamental data structure implementations in C, mastering arrays, linked lists, stacks, and queues with advanced file I/O operations for optimal memory management and algorithmic efficiency.</p>
-                        <p class="skills-tag"><strong>Skills:</strong> C Programming, Data Structures, File I/O</p>
-                    </div>
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Key Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>C Data Structures & File Handling Lab</h3>
+                    <p>Engineered fundamental data structure implementations in C, mastering arrays, linked lists, stacks, and queues with advanced file I/O operations for optimal memory management and algorithmic efficiency.</p>
+                    <div class="project-skills">C Programming • Data Structures • File I/O</div>
                 </div>
-                <div class="list-item">
-                    <span class="number">2</span>
-                    <div>
-                        <h3>Python Network Analysis Script</h3>
-                        <p>Architected a sophisticated Python-based security monitoring tool leveraging netstat to capture real-time network activity, identifying anomalous patterns and potential security threats with precision threat analysis.</p>
-                        <p class="skills-tag"><strong>Skills:</strong> Python, Network Security, System Analysis</p>
-                    </div>
+                <div class="project-card">
+                    <h3>Python Network Analysis Script</h3>
+                    <p>Architected sophisticated Python-based security monitoring tool leveraging netstat to capture real-time network activity, identifying anomalous patterns and potential security threats with precision threat analysis.</p>
+                    <div class="project-skills">Python • Network Security • System Analysis</div>
                 </div>
-                <div class="list-item">
-                    <span class="number">3</span>
-                    <div>
-                        <h3>Linux System Administration & Hardening</h3>
-                        <p>Hardened Ubuntu systems through strategic deployment of user/group management, granular file permissions, and enterprise-grade firewall configurations—implementing defense-in-depth security protocols for production environments.</p>
-                        <p class="skills-tag"><strong>Skills:</strong> Linux, Security Hardening, System Administration</p>
-                    </div>
+                <div class="project-card">
+                    <h3>Linux System Administration & Hardening</h3>
+                    <p>Hardened Ubuntu systems through strategic deployment of user/group management, granular file permissions, and enterprise-grade firewall configurations—implementing defense-in-depth security protocols for production environments.</p>
+                    <div class="project-skills">Linux • Security Hardening • System Admin</div>
                 </div>
-                <div class="list-item">
-                    <span class="number">4</span>
-                    <div>
-                        <h3>Managed GitHub Repositories & Git Workflow</h3>
-                        <p>Orchestrated sophisticated Git workflows and version control mastery across multiple repositories, demonstrating best practices in branching strategies, commit hygiene, and collaborative development within team environments.</p>
-                        <p class="skills-tag"><strong>Skills:</strong> Git, GitHub, Version Control, Collaboration</p>
-                    </div>
+                <div class="project-card">
+                    <h3>Managed GitHub Repositories & Git Workflow</h3>
+                    <p>Orchestrated sophisticated Git workflows and version control mastery across multiple repositories, demonstrating best practices in branching strategies, commit hygiene, and collaborative development within team environments.</p>
+                    <div class="project-skills">Git • GitHub • Version Control • Collaboration</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Research Section -->
-    <section class="content-section">
-        <div class="content-wrapper">
-            <h2>Research & Advanced Work</h2>
+    <!-- Research & Advanced Work -->
+    <section class="research" id="research">
+        <div class="container">
+            <h2 class="section-title">Research & Advanced Work</h2>
             <div class="research-grid">
                 <div class="research-item">
                     <h3>Cybersecurity Fundamentals</h3>
@@ -178,7 +177,7 @@
                 </div>
                 <div class="research-item">
                     <h3>Defense Sector Research</h3>
-                    <p>Research at Rashtriya Raksha University examines cybersecurity systems and their critical impact on defense infrastructure and national security.</p>
+                    <p>Research at Rashtriya Raksha University examining cybersecurity systems and their critical impact on defense infrastructure and national security.</p>
                     <ul>
                         <li>Defense applications</li>
                         <li>Strategic security analysis</li>
@@ -190,97 +189,78 @@
     </section>
 
     <!-- Certifications Section -->
-    <section class="content-section" id="certifications">
-        <div class="content-wrapper">
-            <h2>Certifications & Achievements</h2>
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Achievements</h2>
             <div class="cert-grid">
-                <div class="cert-section">
-                    <h3>IIT Guwahati</h3>
-                    <p><strong>Cybersecurity Micro-Certificate</strong></p>
+                <div class="cert-item">
+                    <h3>Professional Certifications</h3>
+                    <ul>
+                        <li>IIT Guwahati Cybersecurity Micro-Certificate</li>
+                        <li>IIT Jodhpur Cyber Defence Program</li>
+                        <li>Cyber Security Training - Acmegrade/Mood Indigo, IIT Bombay</li>
+                    </ul>
                 </div>
-                <div class="cert-section">
-                    <h3>Professional Certifications & Training</h3>
-                    <p>Cyber Program in Cyber Defence – IIT Jodhpur TISC & WhizHack Technologies.</p>
-                    <p>Cyber Security Training Acmegrade / Mood Indigo, IIT Bombay.</p>
-                    <p>India's Strategic Culture Rashtriya Raksha University.</p>
-                </div>
-                <div class="cert-section">
+                <div class="cert-item">
                     <h3>Academic Excellence</h3>
-                    <p>Army Welfare Education Scholarship, Merit Recognitions</p>
+                    <ul>
+                        <li>Army Welfare Education Scholarship</li>
+                        <li>Merit Recognitions</li>
+                        <li>India's Strategic Culture - Rashtriya Raksha University</li>
+                    </ul>
                 </div>
-                <div class="cert-section">
-                    <h3>Competitions</h3>
-                    <p>Maths Olympiad, Green Olympiad, Regional Judo & Yoga</p>
+                <div class="cert-item">
+                    <h3>Competitions & Extracurriculars</h3>
+                    <ul>
+                        <li>Maths Olympiad</li>
+                        <li>Green Olympiad</li>
+                        <li>Regional Judo & Yoga</li>
+                        <li>Scout & Guide</li>
+                    </ul>
                 </div>
-                <div class="cert-section">
-                    <h3>Leadership</h3>
-                    <p>Scout & Guide, IIT Cyber & Ethical Hacking Courses</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Soft Skills Section -->
-    <section class="content-section">
-        <div class="content-wrapper">
-            <h2>Soft Skills & Competencies</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Problem-Solving</h3>
-                    <p>Analytical approach to complex technical challenges and security vulnerabilities.</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Research</h3>
-                    <p>Systematic investigation of cybersecurity systems and defense applications.</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Technical Writing</h3>
-                    <p>Clear documentation of projects, research findings, and technical processes.</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Independent Learning</h3>
-                    <p>Self-motivated pursuit of certifications and advanced technical knowledge.</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Time Management</h3>
-                    <p>Balancing academics, research, certifications, and project work effectively.</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Teamwork</h3>
-                    <p>Collaborative approach to projects and knowledge sharing with peers.</p>
+                <div class="cert-item">
+                    <h3>Soft Skills & Competencies</h3>
+                    <ul>
+                        <li>Problem-Solving & Critical Thinking</li>
+                        <li>Research & Investigation</li>
+                        <li>Technical Writing & Documentation</li>
+                        <li>Independent Learning & Time Management</li>
+                        <li>Teamwork & Collaboration</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="content-section" id="contact">
-        <div class="content-wrapper">
-            <h2>Let's Connect</h2>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
             <div class="contact-grid">
-                <div class="contact-block">
-                    <h3>Languages</h3>
-                    <p><strong>English:</strong> Professional</p>
-                    <p><strong>Hindi:</strong> Native</p>
-                </div>
-                <div class="contact-block">
+                <div class="contact-info">
                     <h3>Contact Information</h3>
                     <p><strong>Email:</strong> <a href="mailto:bhartipriyanka982@gmail.com">bhartipriyanka982@gmail.com</a></p>
                     <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/priyanka-bharti-b30b0527a" target="_blank">linkedin.com/in/priyanka-bharti-b30b0527a</a></p>
                     <p><strong>GitHub:</strong> <a href="https://github.com/priyaS008" target="_blank">github.com/priyaS008</a></p>
                     <p><strong>Location:</strong> Indore, Madhya Pradesh</p>
                 </div>
-            </div>
-            <div class="opportunities">
-                <h3>Open to Opportunities</h3>
-                <p>Ready to turn ambitious ideas into secure, scalable realities! I thrive on challenges—whether it's internships, innovative projects, or collaborative ventures. Remote or on-site, full-time or flexible—I adapt to what works. With an immediate start capability and flexible scheduling around my studies, I'm primed to contribute, learn relentlessly, and build solutions that matter. Let's forge something extraordinary together.</p>
+                <div class="contact-info">
+                    <h3>Languages</h3>
+                    <p><strong>English:</strong> Professional</p>
+                    <p><strong>Hindi:</strong> Native</p>
+                    <br>
+                    <h3>Open to Opportunities</h3>
+                    <p>Ready to turn ambitious ideas into secure, scalable realities! I thrive on challenges—whether it's internships, innovative projects, or collaborative ventures. Remote or on-site, full-time or flexible—I adapt to what works. With an immediate start capability and flexible scheduling around my studies, I'm primed to contribute, learn relentlessly, and build solutions that matter.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <p>© 2025 Priyanka Bharti | AI/ML Student | Cybersecurity Enthusiast</p>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Priyanka Bharti | AI/ML Student | Cybersecurity Enthusiast</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
