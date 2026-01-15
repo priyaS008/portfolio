@@ -273,18 +273,11 @@ body {
 }
 
 .skill-category {
-  padding: 2rem;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  border: none;
-  
-.skill-category:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border-left: 4px solid #9b59b6;
 }
-
 .skill-category li::before {
   content: none;
 }
@@ -639,18 +632,18 @@ z-index: 10;  border: 3px solid #fff;
   .education-timeline::before {
     left: 25px;
   }
-  
+
   .timeline-number {
     left: 25px !important;
     transform: translateX(-50%) !important;
   }
-  
+
   .timeline-item {
     flex-direction: column-reverse !important;
     align-items: flex-start;
     padding-left: 80px;
   }
-  
+
   .timeline-content {
     width: 100%;
     border-left: 4px solid #c084d8 !important;
@@ -661,6 +654,8 @@ z-index: 10;  border: 3px solid #fff;
 
 /* Responsive - Stack on mobile */
   /* About Section - Two Column Layout */
+  645
+  
 .about-content {  
   display: flex;
   flex-wrap: nowrap;
@@ -689,7 +684,7 @@ z-index: 10;  border: 3px solid #fff;
   object-fit: cover;
 }
 
-  
+
 .about-text {
   flex:1 1 65%1;
 }
@@ -720,5 +715,5 @@ z-index: 10;  border: 3px solid #fff;
 }
 
   }
-  
+
 }
