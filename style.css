@@ -707,7 +707,7 @@ z-index: 10;  border: 3px solid #fff;
 /* Fix for About section - Make content-wrapper flex to position image beside text */
 #about .content-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: flex-start;
   gap: 2rem;
 }
