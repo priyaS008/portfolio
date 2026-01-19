@@ -715,6 +715,7 @@ flex-wrap: wrap;  align-items: flex-start;
 #about h2 {
   width: 100%;
   flex-basis: 100%;
+        flex-shrink: 0;
 }
 
 #about .about-content {
