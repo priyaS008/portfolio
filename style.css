@@ -667,12 +667,8 @@ z-index: 10;  border: 3px solid #fff;
 
 /* About Image Container */
 #about .about-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 400px;
-  background: linear-gradient(135deg, #e0f7ff 0%, #f0e6ff 100%);
   border-radius: 16px;
+    height: auto;
   overflow: hidden;
 }
 
