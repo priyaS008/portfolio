@@ -719,7 +719,7 @@ flex-wrap: wrap;  align-items: flex-start;
 }
 
 #about .about-content {
-  flex1;
+flex: 1;
   display: flex;
 }
 
