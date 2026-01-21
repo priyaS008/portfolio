@@ -733,3 +733,41 @@ flex: 1;
   margin-top: 0;
 }
 }
+
+/* Tools & Technologies Section */
+#tools .content-wrapper {
+          display: flex;
+          gap: 3rem;
+          align-items: center;
+      }
+
+#tools .tools-image {
+          flex: 1;
+          min-width: 250px;
+      }
+
+#tools .tools-image img {
+          width: 100%;
+          border-radius: 8px;
+      }
+
+#tools .tools-content {
+          flex: 1;
+          display: grid;
+          gap: 2rem;
+      }
+
+#tools .tool-item {
+          display: flex;
+          gap: 1rem;
+          align-items: flex-start;
+      }
+
+#tools .tool-icon {
+          font-size: 2.5rem;
+          flex-shrink: 0;
+      }
+
+#tools .tool-item h3 {
+          margin: 0;
+      }
