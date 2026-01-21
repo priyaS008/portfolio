@@ -743,7 +743,7 @@ flex: 1;
       }
 
 #tools .tools-image {
-          lex: 0 0 350px;
+          flex: 0 0 350px;
           max-width: 400px;
           min-width: 250px;
       }
@@ -773,3 +773,4 @@ flex: 1;
 #tools .tool-item h3 {
           margin: 0;
       }
+      
