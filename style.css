@@ -755,9 +755,8 @@ flex: 1;
 
 #tools .tools-content {
           flex: 1;
-          display: grid;
-          grid-template-columns: 1fr;
-          gap: 2rem;
+    display: flex;
+    flex-direction: column;          gap: 2rem;
       }
 
 #tools .tool-item {
