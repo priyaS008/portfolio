@@ -743,7 +743,8 @@ flex: 1;
       }
 
 #tools .tools-image {
-          flex: 1;
+          lex: 0 0 350px;
+          max-width: 400px;
           min-width: 250px;
       }
 
