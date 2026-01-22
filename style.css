@@ -759,6 +759,15 @@ flex: 1;
     flex-direction: column;          gap: 2rem;
       }
 
+#tools h2 {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+  color: white;
+  margin: 0 0 1.5rem 0;
+  border-radius: 4px;
+}
+
 #tools .tool-item {
           display: flex;
           gap: 1rem;
