@@ -773,4 +773,47 @@ flex: 1;
 #tools .tool-item h3 {
           margin: 0;
       }
+
+/* New Tool Grid and Card Styles */
+#tools .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#tools .tool-card {
+    background: linear-gradient(135deg, rgba(199, 125, 202, 0.1) 0%, rgba(100, 150, 200, 0.05) 100%);
+    border: 1px solid rgba(199, 125, 202, 0.2);
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+#tools .tool-card:hover {
+    background: linear-gradient(135deg, rgba(199, 125, 202, 0.15) 0%, rgba(100, 150, 200, 0.1) 100%);
+    border-color: rgba(199, 125, 202, 0.4);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(199, 125, 202, 0.15);
+}
+
+#tools .tool-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#tools .tool-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+#tools .tool-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
       
