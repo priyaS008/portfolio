@@ -306,6 +306,72 @@ body {
   margin-top: 2rem;
 }
 
+/* Tools Section Layout - Gamma Style */
+#tools .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.tools-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.tools-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.tools-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.tools-content h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.tools-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.tool-card {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.tool-icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tool-card h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.3rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.tool-card p {
+    margin: 0;
+    color: #666;
+    line-height: 1.6;
+}
+
 .tool-item {
   margin-bottom: 2rem;
   padding: 1.5rem;
