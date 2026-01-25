@@ -1,4 +1,4 @@
-     /* Reset & Base */
+      /* Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -275,6 +275,7 @@ body {
 
 .skill-category {
   padding: 1.5rem;
+  background: #f9f9f9;
   background: #d8d5f5;
   border-radius: 8px;
   border-left: 4px solid #9b59b6;
@@ -732,94 +733,4 @@ flex: 1;
   border-radius: 12px;
   margin-top: 0;
 }
-}
-
-/* Tools & Technologies Section */
-#tools .content-wrapper {
-          display: flex;
-          gap: 3rem;
-          align-items: center;
-          flex-wrap: nowrap;
-      }
-
-#tools .tools-image {
-          flex: 0 0 350px;
-          max-width: 400px;
-          min-width: 250px;
-      }
-
-#tools .tools-image img {
-          width: 350px
-          border-radius: 8px;
-      }
-
-#tools .tools-content {
-          flex: 1;
-    display: flex;
-    flex-direction: column;          gap: 2rem;
-      }
-
-#tools h2 {
-  width: fit-content;
-  padding: 0.5rem 1rem;
-  background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
-  color: white;
-  margin: 0 0 1.5rem 0;
-  border-radius: 4px;
-}
-
-#tools .tool-item {
-          display: flex;
-          gap: 1rem;
-          align-items: flex-start;
-      }
-
-#tools .tool-icon {
-          font-size: 2.5rem;
-          flex-shrink: 0;
-      }
-
-#tools .tool-item h3 {
-          margin: 0;
-      }
-
-/* New Tool Grid and Card Styles */
-#tools .tools-grid {
-    display: grid;
-    grid-template-columns: 1fr;    gap: 2rem;
-    margin-top: 1.5rem;
-}
-
-#tools .tool-card {
-    background: linear-gradient(135deg, rgba(199, 125, 202, 0.1) 0%, rgba(100, 150, 200, 0.05) 100%);
-    border: 1px solid rgba(199, 125, 202, 0.2);
-    border-radius: 12px;
-    padding: 2rem;
-    transition: all 0.3s ease;
-    text-align: left;}
-
-#tools .tool-card:hover {
-    background: linear-gradient(135deg, rgba(199, 125, 202, 0.15) 0%, rgba(100, 150, 200, 0.1) 100%);
-    border-color: rgba(199, 125, 202, 0.4);
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(199, 125, 202, 0.15);
-}
-
-#tools .tool-icon {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-}
-
-#tools .tool-card h3 {
-    font-size: 1.3rem;
-    margin-bottom: 0.8rem;
-    color: #fff;
-    font-weight: 600;
-}
-
-#tools .tool-card p {
-    font-size: 0.95rem;
-    line-height: 1.6;
-    color: #e0e0e0;
 }
