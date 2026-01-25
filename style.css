@@ -304,27 +304,97 @@ body {
 /* Tools Section */
 .tools-section {
   margin-top: 2rem;
+          background: linear-gradient(135deg, rgba(239, 210, 255, 0.3), rgba(220, 240, 255, 0.3));
+    padding: 3rem 0;
+}
+
+.tools-section .content-wrapper {
+    display: flex;
+    align-items: stretch;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.tools-image {
+    flex: 0 0 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tools-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+
+.tools-content {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.tools-content h2 {
+    font-family: 'Playfair Display', 'Georgia', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 2rem 0;
+    line-height: 1.2;
 }
 
 .tool-item {
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  background: #f9f9f9;
-  border-radius: 8px;
-  border-left: 4px solid #9b59b6;
+    margin-bottom: 1.8rem;
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-left: none;
 }
 
-.tool-item h4 {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #000000;
-  margin-bottom: 0.8rem;
-  margin-top: 0;
+.tool-item h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #2d2d2d;
+    margin: 0.5rem 0 0.8rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tool-icon {
+    color: #C77DFF;
+    font-size: 1.5rem;
 }
 
 .tool-item p {
-  margin-bottom: 0;
+    color: #4a4a4a;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
 }
+
+/* Responsive design */
+@media (max-width: 968px) {
+    .tools-section .content-wrapper {
+        flex-direction: column;
+    }
+    
+    .tools-image {
+        flex: none;
+        width: 100%;
+    }
+    
+    .tools-content h2 {
+        font-size: 2rem;
+    }
+}
+
 
 /* Research Grid */
 .research-grid {
