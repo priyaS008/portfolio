@@ -1084,4 +1084,11 @@ flex: 1;
   .tool-card:hover {
     transform: translateX(0);
   }
+
+      .tool-icon svg {
+  width: 28px;
+  height: 28px;
+  stroke: #9333ea;
+  stroke-width: 2;
+}
 }
