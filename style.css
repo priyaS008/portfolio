@@ -810,13 +810,13 @@ flex: 1;
     padding: 6rem 0;
     position: relative;
 }
-/* Tools & Technologies Section */
+/* Tools & Technologies Section */ v2.0 - Final Gamma Match */
 #tools .content-wrapper {
           display: flex;
           gap: 3rem;
           align-items: center;
           flex-wrap: nowrap;
-          flex-direction: row-reverse;
+          flex-direction: row-reverse !important;
       }
 
 #tools .tools-image {
