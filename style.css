@@ -1413,3 +1413,126 @@ flex: 1;
   border-radius: 12px !important;
   border: 1px solid rgba(0, 0, 0, 0.06) !important;
 }
+
+       /* UNIFIED BACKGROUND - Gamma Match */
+#tools .tools-unified {
+  background: rgba(255, 255, 255, 0.95) !important;
+  padding: 3rem !important;
+  border-radius: 20px !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08) !important;
+}
+
+#tools .tool-card {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 1.5rem 0 !important;
+}
+
+
+       /* FINAL FIX - Tools & Technologies Gamma Match - Same Plane Layout */
+
+/* Main container with unified background */
+#tools {
+    background: #FDE8FF !important;
+    padding: 6rem 0 !important;
+}
+
+/* Content wrapper - side by side layout */
+#tools .content-wrapper {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 3rem !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 0 2rem !important;
+}
+
+/* Image container - left side */
+#tools .tools-image {
+    flex: 0 0 40% !important;
+    max-width: 40% !important;
+}
+
+#tools .tools-image img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 16px !important;
+    object-fit: cover !important;
+}
+
+/* Content container - right side */
+#tools .tools-content {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem !important;
+}
+
+/* Title styling - match About Me */
+#tools h2 {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 2.5rem !important;
+    font-weight: 800 !important;
+    color: #000000 !important;
+    margin-bottom: 2rem !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+/* Remove all card backgrounds and boxes */
+#tools .tool-card {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin-bottom: 1.5rem !important;
+}
+
+/* Tool card heading - match About Me h3 */
+#tools .tool-card h3 {
+    font-family: 'Playfair Display', 'Inter', sans-serif !important;
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+    color: #000000 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Tool card paragraph - match About Me */
+#tools .tool-card p {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.05rem !important;
+    line-height: 1.6 !important;
+    color: #666666 !important;
+    margin: 0 !important;
+}
+
+/* Remove unified container styling */
+#tools .tools-unified {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+/* Smooth transitions */
+#tools .content-wrapper,
+#tools .tools-image,
+#tools .tools-content {
+    transition: all 0.3s ease-in-out !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #tools .content-wrapper {
+        flex-direction: column !important;
+    }
+    
+    #tools .tools-image {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 2rem !important;
+    }
+}
