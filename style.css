@@ -1415,23 +1415,6 @@ flex: 1;
 }
 
        /* UNIFIED BACKGROUND - Gamma Match */
-#tools .tools-unified {
-  background: rgba(255, 255, 255, 0.95) !important;
-  padding: 3rem !important;
-  border-radius: 20px !important;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08) !important;
-}
-
-#tools .tool-card {
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  padding: 1.5rem 0 !important;
-}
-
-
-       /* FINAL FIX - Tools & Technologies Gamma Match - Same Plane Layout */
-
 /* Main container with unified background */
 #tools {
     background: #FDE8FF !important;
