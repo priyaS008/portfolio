@@ -1536,3 +1536,16 @@ flex: 1;
         margin-bottom: 2rem !important;
     }
 }
+
+/* CRITICAL FIX - Remove ALL white backgrounds from Tools section */
+#tools.content-section,
+#tools .content-wrapper,
+#tools .tools-unified,
+#tools > div,
+#tools .tool-card,
+#tools .tool-card > div {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
