@@ -1131,4 +1131,167 @@ flex: 1;
   height: 28px;
   stroke: #E879F9;  stroke-width: 2;
 }
+
+            /* ========================================
+   GAMMA-STYLE TOOLS & TECHNOLOGIES FIX
+   Final comprehensive override
+======================================== */
+
+/* Main section styling */
+#tools {
+  background: #FDE8FF !important;
+  padding: 4rem 0 !important;
+  overflow: hidden !important;
+}
+
+/* Content wrapper - Side by side layout */
+#tools .content-wrapper {
+  display: flex !important;
+  align-items: stretch !important;
+  gap: 3rem !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+  flex-wrap: nowrap !important;
+  flex-direction: row !important;
+}
+
+/* Image container - LEFT side (40%) */
+#tools .tools-image {
+  flex: 0 0 40% !important;
+  max-width: 40% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+}
+
+#tools .tools-image img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Content container - RIGHT side (60%) */
+#tools .tools-content {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2rem !important;
+  justify-content: center !important;
+  padding: 2rem 0 !important;
+}
+
+/* Main heading */
+#tools h2 {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-size: 3.5rem !important;
+  font-weight: 700 !important;
+  color: #1a1a1a !important;
+  margin: 0 0 2rem 0 !important;
+  line-height: 1.2 !important;
+  text-align: left !important;
+}
+
+/* Tool cards styling */
+#tools .tool-card {
+  background: rgba(255,255,255,0.6) !important;
+  padding: 1.5rem !important;
+  border-radius: 12px !important;
+  margin-bottom: 1rem !important;
+  transition: all 0.3s ease !important;
+  border: 1px solid rgba(200,180,220,0.3) !important;
+}
+
+#tools .tool-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(200,100,220,0.15) !important;
+  background: rgba(255,255,255,0.8) !important;
+}
+
+#tools .tool-card h3 {
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  color: #2d2d2d !important;
+  margin: 0 0 0.75rem 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+}
+
+#tools .tool-card p {
+  font-size: 1.05rem !important;
+  line-height: 1.6 !important;
+  color: #555 !important;
+  margin: 0 !important;
+}
+
+/* Tool icons */
+#tools .tool-icon svg {
+  width: 32px !important;
+  height: 32px !important;
+  stroke: #c850c8 !important;
+  fill: none !important;
+  stroke-width: 2px !important;
+}
+
+/* Smooth animations on scroll */
+#tools .tools-image,
+#tools .tools-content {
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+#tools .tools-content {
+  animation-delay: 0.2s;
+}
+
+#tools .tool-card {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+#tools .tool-card:nth-child(1) { animation-delay: 0.3s; }
+#tools .tool-card:nth-child(2) { animation-delay: 0.4s; }
+#tools .tool-card:nth-child(3) { animation-delay: 0.5s; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive - Stack on mobile */
+@media (max-width: 768px) {
+  #tools .content-wrapper {
+    flex-direction: column !important;
+    gap: 2rem !important;
+  }
+  
+  #tools .tools-image {
+    flex: 1 !important;
+    max-width: 100% !important;
+  }
+  
+  #tools h2 {
+    font-size: 2.5rem !important;
+    text-align: center !important;
+  }
+}
 }
