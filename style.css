@@ -819,10 +819,12 @@ flex: 1;
       }
 
 #tools h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
+ font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 2rem;.5rem;
   margin-bottom: 2rem;
-  color: #1a1a1a;
   font-family: 'Playfair Display', 'Inter', sans-serif;
 }
 
@@ -832,14 +834,14 @@ flex: 1;
 }
 
 #tools .tool-card h3 {
-  font-size: 1.4rem;
+  font-size: 1.4rem; /* Match About Me h3 style */
   font-weight: 600;
   margin-bottom: 0.75rem;
   color: #2d2d2d;
 }
 
 #tools .tool-card p {
-  font-size: 1.05rem;
+  font-size: 1.05rem; /* Match About Me paragraph style */
   line-height: 1.6;
   color: #4a4a4a;
 }
@@ -1290,8 +1292,6 @@ flex: 1;
   }
   
   #tools h2 {
-    font-size: 2.5rem !important;
-    text-align: center !important;
   }
 }
 }
