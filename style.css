@@ -1295,3 +1295,22 @@ flex: 1;
   }
 }
 }
+
+/* OVERRIDE: Force side-by-side layout ALWAYS */
+#tools .content-wrapper.tools-unified {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 3rem !important;
+}
+
+#tools .tools-image {
+  flex: 0 0 45% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#tools .tools-content {
+  flex: 1 !important;
+}
