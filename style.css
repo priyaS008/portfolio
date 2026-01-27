@@ -1352,3 +1352,64 @@ flex: 1;
 .tool-card:nth-child(3) {
   animation-delay: 0.3s !important;
 }
+
+/* GAMMA EXACT MATCH - Tools & Technologies Section Overrides */
+
+/* Force heading to be BLACK (override any purple/magenta) */
+#tools .content-wrapper h2,
+#tools h2 {
+  color: #000000 !important;
+  font-family: 'Playfair Display', serif !important;
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  text-align: left !important;
+  margin-bottom: 2rem !important;
+}
+
+/* Match Gamma image sizing and positioning */
+#tools .tools-image img,
+#tools .tools-visual img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 4/3 !important;
+  object-fit: cover !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Icon styling - magenta/purple icons like Gamma */
+.tool-icon {
+  color: #c651cd !important;
+  font-size: 2.5rem !important;
+  margin-bottom: 1rem !important;
+  display: block !important;
+}
+
+/* Tool card h3 - match Gamma exactly */
+#tools .tool-card h3 {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.4rem !important;
+  font-weight: 700 !important;
+  color: #000000 !important;
+  margin-bottom: 0.8rem !important;
+  margin-top: 0 !important;
+}
+
+/* Tool card paragraph - match Gamma text style */
+#tools .tool-card p {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 1.05rem !important;
+  line-height: 1.7 !important;
+  color: #666666 !important;
+  margin: 0 !important;
+}
+
+/* Card spacing and layout matching Gamma */
+#tools .tool-card {
+  padding: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
