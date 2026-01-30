@@ -302,12 +302,11 @@ body {
 }
 
 /* Tools Section */
-.tools-section {
+335section {
   margin-top: 2rem;
           background: linear-gradient(135deg, rgba(239, 210, 255, 0.3), rgba(220, 240, 255, 0.3));
     padding: 3rem 0;
-}
-
+.tools-section {
 .tools-section .content-wrapper {
     display: flex;
     align-items: stretch;
@@ -370,6 +369,13 @@ body {
 .tool-icon {
     color: #C77DFF;
     font-size: 1.5rem;
+}
+
+       .tool-icon svg {
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-bottom: 1rem;
 }
 
 .tool-item p {
