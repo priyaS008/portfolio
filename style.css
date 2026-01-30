@@ -1,4 +1,4 @@
-       /* Reset & Base */
+      /* Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -302,10 +302,12 @@ body {
 }
 
 /* Tools Section */
+335section {
 .tools-section {
   margin-top: 2rem;
           background: linear-gradient(135deg, rgba(239, 210, 255, 0.3), rgba(220, 240, 255, 0.3));
     padding: 3rem 0;
+.tools-section {
 }
 
 .tools-section .content-wrapper {
@@ -372,6 +374,13 @@ body {
     font-size: 1.5rem;
 }
 
+       .tool-icon svg {
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
 .tool-item p {
     color: #4a4a4a;
     font-size: 1rem;
@@ -384,11 +393,13 @@ body {
     .tools-section .content-wrapper {
         flex-direction: column;
     }
+    
 
     .tools-image {
         flex: none;
         width: 100%;
     }
+    
 
     .tools-content h2 {
         font-size: 2rem;
@@ -1126,11 +1137,13 @@ flex: 1;
     flex-direction: column;
     gap: 2rem;
   }
+  
 
   .tools-visual {
     flex: 0 0 auto;
     width: 100%;
   }
+  
 
   .tool-card:hover {
     transform: translateX(0);
@@ -1293,11 +1306,13 @@ flex: 1;
     flex-direction: column !important;
     gap: 2rem !important;
   }
+  
 
   #tools .tools-image {
     flex: 1 !important;
     max-width: 100% !important;
   }
+  
 
   #tools h2 {
   }
@@ -1529,6 +1544,7 @@ flex: 1;
     #tools .content-wrapper {
         flex-direction: column !important;
     }
+    
 
     #tools .tools-image {
         flex: 0 0 100% !important;
