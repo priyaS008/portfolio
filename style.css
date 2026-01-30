@@ -833,7 +833,6 @@ flex: 1;
   animation: fadeIn 0.6s ease-in !important;
   outline: none !important;
   box-shadow: none !important;
-  margin-bottom: 2rem;.5rem;
   margin-bottom: 2.5rem !important;
   font-family: 'Playfair Display', 'Inter', sans-serif;
 }
@@ -886,19 +885,19 @@ flex: 1;
 
 #tools .tools-content h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 3rem !important;
     font-weight: 700;
     color: #000000;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     text-align: center;
 }
 
 #tools .tools-content h3 {
     font-family: 'Inter', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1.75rem;
+    font-weight: 700;
     color: #000000;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
 }
 
 #tools .tools-content p {
@@ -1199,7 +1198,7 @@ flex: 1;
 /* Main heading */
 #tools h2 {
   font-family: 'Playfair Display', Georgia, serif !important;
-  font-size: 3.5rem !important;
+  font-size: 3rem !important;
   font-weight: 700 !important;
   color: #1a1a1a !important;
   margin: 0 0 2rem 0 !important;
@@ -1300,9 +1299,6 @@ flex: 1;
     flex: 1 !important;
     max-width: 100% !important;
   }
-
-  #tools h2 {
-  }
 }
 }
 
@@ -1362,10 +1358,10 @@ flex: 1;
 #tools h2 {
   color: #000000 !important;
   font-family: 'Playfair Display', serif !important;
-  font-size: 2.5rem !important;
+  font-size: 3rem !important;
   font-weight: 800 !important;
   text-align: left !important;
-  margin-bottom: 2rem !important;
+  margin-bottom:02rem !important;
 }
 
 /* Match Gamma image sizing and positioning */
