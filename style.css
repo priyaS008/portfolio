@@ -334,10 +334,10 @@ body {
 
 .tools-content {
     flex: 1;
-    background: rgba(255, 255, 255, 0.95);
+    background: transparent;
     padding: 2.5rem;
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    box-shadow: none;
 }
 
 .tools-content h2 {
@@ -1409,7 +1409,7 @@ flex: 1;
 #tools .tool-card {
   padding: 1.5rem !important;
   margin-bottom: 1.5rem !important;
-  background: rgba(255, 255, 255, 0.7) !important;
+  background: transparent !important;
   border-radius: 12px !important;
-  border: 1px solid rgba(0, 0, 0, 0.06) !important;
+  border: none !important;
 }
