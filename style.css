@@ -945,8 +945,8 @@ flex: 1;
 }
 
 #tools .tool-card {
-    background: linear-gradient(135deg, rgba(199, 125, 202, 0.1) 0%, rgba(100, 150, 200, 0.05) 100%);
-    border: 1px solid rgba(199, 125, 202, 0.2);
+    background: transparent;
+    border: none;
     border-radius: 12px;
     padding: 2rem;
     transition: all 0.3s ease;
