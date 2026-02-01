@@ -1063,8 +1063,8 @@ flex: 1;
 
 .tools-unified {
   display: flex;
-  align-items: center;
-  gap: 3rem;
+    align-items: flex-start;
+       gap: 3rem;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
