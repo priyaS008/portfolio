@@ -342,11 +342,11 @@ body {
 
 .tools-content h2 {
     font-family: 'Playfair Display', 'Georgia', serif;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 3.5rem;
+       font-weight: 700;
     color: #000000;
-    margin: 0 0 2rem 0;
-    line-height: 1.2;
+    margin: 0 0 2.5rem 0;
+       line-height: 1.2;
 }
 
 .tool-item {
@@ -358,8 +358,8 @@ body {
 }
 
 .tool-item h3 {
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+       font-weight: 700;
     color: #2d2d2d;
     margin: 0.5rem 0 0.8rem 0;
     display: flex;
