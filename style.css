@@ -825,7 +825,8 @@ flex: 1;
   color: #000000;
   background: none !important;
   padding: 0 !important;
-  display: inline !important;
+  828
+       
   width: auto !important;
   text-align: left !important;
   border: none !important;
@@ -978,12 +979,17 @@ flex: 1;
     margin-bottom: 0.8rem;
     color: #fff;
     font-weight: 600;
+         display: block !important;
+         background-color: transparent !important;
+         background-color: transparent !important;
 }
 
 #tools .tool-card p {
     font-size: 0.95rem;
     line-height: 1.6;
     color: #e0e0e0;
+
+         display: block !important;
 }
 
 /* Gamma-style animations and enhancements for Tools section */
