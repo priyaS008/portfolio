@@ -1412,6 +1412,7 @@ flex: 1;
   color: #000000 !important;
   margin-bottom: 1rem !important;
   margin-top: 0 !important;
+         display: block !important; background-color: transparent !important;
 }
 
 /* Tool card paragraph - match Gamma text style */
@@ -1421,6 +1422,7 @@ flex: 1;
   line-height: 1.8 !important;
   color: #666666 !important;
   margin: 0 !important;
+         display: block !important; background-color: transparent !important;
 }
 
 /* Card spacing and layout matching Gamma */
