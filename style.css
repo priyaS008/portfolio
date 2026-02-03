@@ -844,7 +844,8 @@ flex: 1;
   border-radius: 16px;
 }
 
-#tools .tool-card h3 {
+
+  display: block !important; background-color: transparent !important;#tools .tool-card h3 {
   font-size: 1.75rem !important; /* Match About Me h3 style */
   font-weight: 700 !important;
   margin-bottom: 1rem !important;
@@ -854,6 +855,7 @@ flex: 1;
   font-size: 1.15rem !important; /* Match About Me paragraph style */
   line-height: 1.8 !important;
   color: #666666 !important;
+         display: block !important; background-color: transparent !important;
   margin: 0 !important;
 }
 
