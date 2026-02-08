@@ -844,6 +844,12 @@ flex: 1;
   border-radius: 16px;
 }
 
+#tools .tools-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem !important;
+}
+
 
   #tools .tool-card {
     background: transparent !important;
@@ -874,7 +880,8 @@ flex: 1;
   width: 100%;
       }
 
-#tools .tools-content {
+871
+{
   flex: 1;
   display: flex;
     gap: 1.5rem;
