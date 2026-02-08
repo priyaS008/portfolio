@@ -845,7 +845,15 @@ flex: 1;
 }
 
 
-  display: block !important; background-color: transparent !important;#tools .tool-card h3 {
+  #tools .tool-card {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin-bottom: 2rem !important;
+}
+
+#tools .tool-card h3 {
   font-size: 1.75rem !important; /* Match About Me h3 style */
   font-weight: 700 !important;
   margin-bottom: 1rem !important;
