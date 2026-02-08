@@ -1304,7 +1304,7 @@ flex: 1;
 }
 
 /* Responsive - Stack on mobile */
-@media (max-width: 1px) {
+@media (max-width: 768px) {
   #tools .content-wrapper {
     flex-direction: column !important;
     gap: 2rem !important;
