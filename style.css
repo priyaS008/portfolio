@@ -869,8 +869,7 @@ flex: 1;
 #tools .tools-content {
   flex: 1;
   display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+    gap: 1.5rem;
       }
 
 #tools h2 {
@@ -1136,7 +1135,8 @@ flex: 1;
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+871
+: 768px) {
   .tools-unified {
     flex-direction: column;
     gap: 2rem;
