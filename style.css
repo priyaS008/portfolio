@@ -851,25 +851,29 @@ flex: 1;
 }
 
 
-  #tools .tool-card {
-    background: transparent !important;
+  848
+
+#tools .tool-card {
+    background: #4169E1 !important;
     border: none !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    margin-bottom: 2rem !important;
+    border-radius: 8px !important;
+    padding: 1.5rem !important;
+    margin-bottom: 1rem !important;
+    color: white !important;
 }
+
+
+
 
 #tools .tool-card h3 {
   font-size: 1.75rem !important; /* Match About Me h3 style */
   font-weight: 700 !important;
   margin-bottom: 1rem !important;
-  color: #000000 !important;}
-
+    color: white !important;
 #tools .tool-card p {
   font-size: 1.15rem !important; /* Match About Me paragraph style */
   line-height: 1.8 !important;
-  color: #666666 !important;
-         display: block !important; background-color: transparent !important;
+    color: white !important;         display: block !important; background-color: transparent !important;
   margin: 0 !important;
 }
 
