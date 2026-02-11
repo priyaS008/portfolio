@@ -301,14 +301,14 @@ body {
   color: #666666 !important;
 }
 
-/* Tools Section */
+/* Tools & Technologies Section - Gamma Style */
 .tools-section {
-  margin-top: 2rem;
-          background: linear-gradient(135deg, rgba(239, 210, 255, 0.3), rgba(220, 240, 255, 0.3));
+    margin-top: 2rem;
+    background: linear-gradient(135deg, ▁rgba(239, 210, 255, 0.3), ▁rgba(245, 255, 210, 0.3));
     padding: 3rem 0;
 }
 
-.tools-section .content-wrapper {
+.tools-gamma {
     display: flex;
     align-items: stretch;
     gap: 3rem;
@@ -317,82 +317,106 @@ body {
     padding: 0 2rem;
 }
 
-.tools-image {
+.tools-image-left {
     flex: 0 0 45%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.tools-image img {
+.tools-image-left img {
     width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 12px;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 40px ▁rgba(0,0,0,0.15);
 }
 
-.tools-content {
+.tools-content-right {
     flex: 1;
-    background: transparent;
-    padding: 2.5rem;
-    border-radius: 12px;
-    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
 }
 
-.tools-content h2 {
+.tools-content-right h2 {
     font-family: 'Playfair Display', 'Georgia', serif;
     font-size: 3.5rem;
-       font-weight: 700;
-    color: #000000;
-    margin: 0 0 2.5rem 0;
-       line-height: 1.2;
+    font-weight: 700;
+    color: ▁#000000;
+    margin: 0 0 1rem 0;
 }
 
 .tool-item {
-    margin-bottom: 1.8rem;
-    padding: 0;
-    background: transparent;
-    border: none;
-    border-left: none;
-}
-
-.tool-item h3 {
-    font-size: 1.5rem;
-       font-weight: 700;
-    color: #2d2d2d;
-    margin: 0.5rem 0 0.8rem 0;
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    gap: 1.5rem;
+    align-items: flex-start;
 }
 
 .tool-icon {
-    color: #C77DFF;
-    font-size: 1.5rem;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: ▁rgba(192, 192, 255, 0.2);
+    border-radius: 8px;
 }
 
-.tool-item p {
-    color: #4a4a4a;
+.tool-icon svg {
+    width: 28px;
+    height: 28px;
+    color: ▁#4C77DF;
+}
+
+.tool-text h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: ▁#2d2d2d;
+    margin: 0 0 0.5rem 0;
+}
+
+.tool-text p {
+    color: ▁#4a4a4a;
     font-size: 1rem;
     line-height: 1.6;
     margin: 0;
 }
 
-/* Responsive design */
+/* Responsive design for Tools */
 @media (max-width: 968px) {
-    .tools-section .content-wrapper {
+    .tools-gamma {
         flex-direction: column;
+        gap: 2rem;
     }
-
-    .tools-image {
+    
+    .tools-image-left {
         flex: none;
         width: 100%;
     }
+    
+    .tools-content-right h2 {
+        font-size: 2.5rem;
+    }
+}
 
-    .tools-content h2 {
+@media (max-width: 668px) {
+    .tools-content-right h2 {
         font-size: 2rem;
     }
+    
+    .tool-item {
+        gap: 1rem;
+    }
+    
+    .tool-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
 }
 
 
