@@ -1524,10 +1524,14 @@ flex: 1;
 }
 
 .project-card .skills-tag {
+        display: inline-block;
+    background: rgba(155, 89, 182, 0.15);
+    color: #555555;
     font-size: 0.88rem;
-    color: #666;
-    padding: 0 1.5rem;
-    margin-bottom: 1.5rem;
+    font-weight: 600;
+    padding: 0.3rem 0.8rem;
+    border-radius: 6px;
+    margin: 0 0 1rem 1.5rem;margin-bottom: 1.5rem;
 }
 
 @media (max-width: 768px) {
