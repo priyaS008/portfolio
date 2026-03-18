@@ -423,15 +423,13 @@ body {
 /* Research Grid */
 .research-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
+    gap: 1.5rem;}
 
 .research-item {
-  padding: 1.5rem;
-  background: #f9f9f9;
-  border-radius: 8px;
-  border-left: 4px solid #9b59b6;
+      background: #ffffff;
+    border: 1.5px solid #e0d0f0;
+    border-radius: 12px;
+    padding: 1.5rem;
 }
 
 .research-item h3 {
