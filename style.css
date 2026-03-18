@@ -1476,3 +1476,62 @@ flex: 1;
   border-radius: 12px !important;
   border: none !important;
 }
+
+
+/* Key Projects - 2x2 Grid Card Layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.project-card {
+    background: #ffffff;
+    border: 1.5px solid #e0d0f0;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.project-number {
+    background: #e8d5f5;
+    color: #6b3fa0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #e0d0f0;
+}
+
+.project-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+    padding: 0 1.5rem;
+}
+
+.project-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0;
+    padding: 0 1.5rem;
+    flex: 1;
+}
+
+.project-card .skills-tag {
+    font-size: 0.88rem;
+    color: #666;
+    padding: 0 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
